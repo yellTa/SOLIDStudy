@@ -1,14 +1,19 @@
 package hello.core.member;
 
-import hello.core.Member.Grade;
-import hello.core.Member.Member;
-import hello.core.Member.MemberService;
-import hello.core.Member.MemberServiceImpl;
+import hello.core.Appconfig;
 import org.assertj.core.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-public class MemberServiceTEst {
-    MemberService memberService = new MemberServiceImpl();\
+public class MemberServiceTest {
+    MemberService memberService;
+
+    @BeforeEach
+    public void before(){
+        Appconfig app = new Appconfig();
+        memberService = app.memberService();
+    }
+
 
     //test를 잘 작성하는 것이 중요함
     @Test

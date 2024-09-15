@@ -1,4 +1,4 @@
-package hello.core.Member;
+package hello.core.member;
 
 public class Member {
     //회원의 등급 만ㄷ르기

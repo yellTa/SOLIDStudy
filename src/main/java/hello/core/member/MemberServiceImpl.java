@@ -1,9 +1,15 @@
-package hello.core.Member;
+package hello.core.member;
 
 //구현체가 하나만 있을 때는 관례상 Impl이라고 씀
 public class MemberServiceImpl implements MemberService{
 
-    private final MemberRepository memberRepsitory  = new MemoryMemberRepository();
+    //순수 Interface에만 의존 -> DIP완료
+    private final MemberRepository memberRepsitory;
+
+    public MemberServiceImpl(MemberRepository memberRepsitory) {
+        this.memberRepsitory = memberRepsitory;
+    }
+
 
     @Override
     public void join(Member member) {
