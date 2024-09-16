@@ -1,13 +1,13 @@
-package hello.core;
+package hello.core.pureJava;
 
-import hello.core.discount.DiscountPolicy;
-import hello.core.discount.FixDiscountPolicy;
-import hello.core.member.MemberRepository;
-import hello.core.member.MemberService;
-import hello.core.member.MemberServiceImpl;
-import hello.core.member.MemoryMemberRepository;
-import hello.core.order.OrderService;
-import hello.core.order.OrderServiceImpl;
+import hello.core.pureJava.discount.DiscountPolicy;
+import hello.core.pureJava.discount.FixDiscountPolicy;
+import hello.core.pureJava.member.MemberRepository;
+import hello.core.pureJava.member.MemberService;
+import hello.core.pureJava.member.MemberServiceImpl;
+import hello.core.pureJava.member.MemoryMemberRepository;
+import hello.core.pureJava.order.OrderService;
+import hello.core.pureJava.order.OrderServiceImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -41,7 +41,5 @@ public class Appconfig {
     public DiscountPolicy discountPolicy() {
         return new FixDiscountPolicy();
     }
-
-
 
 }

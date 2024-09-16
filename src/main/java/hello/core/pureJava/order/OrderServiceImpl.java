@@ -1,11 +1,8 @@
-package hello.core.order;
+package hello.core.pureJava.order;
 
-import hello.core.discount.DiscountPolicy;
-import hello.core.discount.FixDiscountPolicy;
-import hello.core.discount.RateDiscountPolicy;
-import hello.core.member.Member;
-import hello.core.member.MemberRepository;
-import hello.core.member.MemoryMemberRepository;
+import hello.core.pureJava.discount.DiscountPolicy;
+import hello.core.pureJava.member.Member;
+import hello.core.pureJava.member.MemberRepository;
 
 public class OrderServiceImpl implements OrderService{
 //    private final MemberRepository memberRepository = new MemoryMemberRepository();

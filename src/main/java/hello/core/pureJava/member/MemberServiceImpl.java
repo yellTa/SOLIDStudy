@@ -1,4 +1,4 @@
-package hello.core.member;
+package hello.core.pureJava.member;
 
 //구현체가 하나만 있을 때는 관례상 Impl이라고 씀
 public class MemberServiceImpl implements MemberService{

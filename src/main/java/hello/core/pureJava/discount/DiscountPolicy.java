@@ -1,6 +1,6 @@
-package hello.core.discount;
+package hello.core.pureJava.discount;
 
-import hello.core.member.Member;
+import hello.core.pureJava.member.Member;
 
 public interface DiscountPolicy {
     /*

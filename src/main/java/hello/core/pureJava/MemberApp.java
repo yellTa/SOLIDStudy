@@ -1,9 +1,8 @@
-package hello.core;
+package hello.core.pureJava;
 
-import hello.core.member.Grade;
-import hello.core.member.Member;
-import hello.core.member.MemberService;
-import hello.core.member.MemberServiceImpl;
+import hello.core.pureJava.member.Grade;
+import hello.core.pureJava.member.Member;
+import hello.core.pureJava.member.MemberService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -17,7 +16,6 @@ public class MemberApp {
         //@Bean을 얘가 관리해주는 것
         ApplicationContext applicationContext = new AnnotationConfigApplicationContext(Appconfig.class);
         MemberService memberService = applicationContext.getBean("memberService", MemberService.class);
-
 
         Member member = new Member(1L, "MemberA", Grade.VIP);
 

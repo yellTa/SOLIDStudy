@@ -64,12 +64,12 @@ public MemberServiceImpl(MemberRepository memberRepsitory) {
 
 package hello.core;  
   
-import hello.core.discount.FixDiscountPolicy;  
-import hello.core.member.MemberService;  
-import hello.core.member.MemberServiceImpl;  
-import hello.core.member.MemoryMemberRepository;  
-import hello.core.order.OrderService;  
-import hello.core.order.OrderServiceImpl;  
+import hello.core.pureJava.discount.FixDiscountPolicy;  
+import hello.core.pureJava.member.MemberService;  
+import hello.core.pureJava.member.MemberServiceImpl;  
+import hello.core.pureJava.member.MemoryMemberRepository;  
+import hello.core.pureJava.order.OrderService;  
+import hello.core.pureJava.order.OrderServiceImpl;  
   
   
 //appliction환경 구성은 여기서 다 하는 거임  

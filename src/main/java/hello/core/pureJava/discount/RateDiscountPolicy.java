@@ -1,7 +1,7 @@
-package hello.core.discount;
+package hello.core.pureJava.discount;
 
-import hello.core.member.Grade;
-import hello.core.member.Member;
+import hello.core.pureJava.member.Grade;
+import hello.core.pureJava.member.Member;
 
 public class RateDiscountPolicy implements DiscountPolicy{
     private int discountPercent = 10;

@@ -1,12 +1,11 @@
-package hello.core.discount;
+package hello.core.pureJava.discount;
 
-import hello.core.member.Grade;
-import hello.core.member.Member;
+import hello.core.pureJava.member.Grade;
+import hello.core.pureJava.member.Member;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 
 class RateDiscountPolicyTest {
 

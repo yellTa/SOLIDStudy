@@ -1,10 +1,9 @@
-package hello.core.order;
+package hello.core.pureJava.order;
 
-import hello.core.Appconfig;
-import hello.core.member.Grade;
-import hello.core.member.Member;
-import hello.core.member.MemberService;
-import hello.core.member.MemberServiceImpl;
+import hello.core.pureJava.Appconfig;
+import hello.core.pureJava.member.Grade;
+import hello.core.pureJava.member.Member;
+import hello.core.pureJava.member.MemberService;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
