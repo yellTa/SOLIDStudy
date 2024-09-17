@@ -10,7 +10,7 @@ public class MemberServiceImpl implements MemberService{
     // SOLID의 추상화에만 의존하는 DIP원칙도 지키게 되는 격이다.
 
     @Autowired
-    final MemberRepository memberRepository;
+    private final MemberRepository memberRepository;
     public MemberServiceImpl(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
     }
