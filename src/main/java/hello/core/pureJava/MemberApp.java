@@ -6,6 +6,7 @@ import hello.core.pureJava.member.MemberService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
+
 public class MemberApp {
     public static void main(String[] args) {
 
